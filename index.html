@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon/coding.png" />
+
+    <title>User Login</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Add user</h2>
+      <hr />
+      <label for="text">User Name</label> <br />
+      <input
+        type="text"
+        class="username"
+        placeholder="Enter Fullname"
+        required
+      />
+      <br />
+      <label for="text">Profile Picture</label> <br />
+      <input type="text" class="userpic" placeholder="URL" required />
+      <br />
+      <button id="btn-adduser" onclick="addUser()">Add User</button>
+    </div>
+    <div class="list-head">
+      <h1>User list</h1>
+    </div>
+    <section class="user-list"></section>
+    <script src="main.js"></script>
+  </body>
+</html>
