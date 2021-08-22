@@ -21,7 +21,7 @@ body {
   -moz-box-shadow: 20px 11px 16px -2px rgba(51, 51, 58, 0.52);
 }
 .userpic {
-  width: 275px;
+  max-width: 275px;
   height: 33px;
   margin: 5px 3px;
   border-radius: 3px;
@@ -31,7 +31,7 @@ body {
 }
 
 .username {
-  width: 275px;
+  max-width: 275px;
   height: 33px;
   margin: 5px 2px 20px 2px;
   border-radius: 3px;
